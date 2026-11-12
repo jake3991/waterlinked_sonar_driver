@@ -1,6 +1,6 @@
 /**:
   ros__parameters:
-    ip_address: "192.168.194.96"
+    ip_address: "192.168.1.96"
     frame_id: "sonar_link"
     imu_frame_id: "sonar_imu_link"
     acoustics_enabled: true
@@ -17,6 +17,6 @@
       filter_source_ip: true
     time_source: "receive"
     ntp_address: ""
-    imu_enabled: false
+    imu_enabled: true
     organized_cloud: false
     diagnostics_period: 5.0
